@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="left-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="1" nextlayerid="8" nextobjectid="1">
+ <tileset firstgid="1" source="tiles/Akintundz-MAIN.tsx"/>
+ <tileset firstgid="391" source="tiles/Ayo-sBasic-terrain.tsx"/>
+ <tileset firstgid="551" source="tiles/Ayo-sBasic-waternisl.tsx"/>
+ <tileset firstgid="671" source="tiles/Realistic-Decorations.tsx"/>
+ <tileset firstgid="927" source="tiles/Realistic-ish.tsx"/>
+ <tileset firstgid="1047" source="tiles/Rocks and Stones.tsx"/>
+ <tileset firstgid="1524" source="tiles/Trees and Plants.tsx"/>
+ <tileset firstgid="1626" source="tiles/Trees-Autnm.tsx"/>
+ <tileset firstgid="1642" source="tiles/Fences_ayo.tsx"/>
+ <tileset firstgid="1658" source="tiles/water_animation_demo.tsx"/>
+ <tileset firstgid="1682" source="tiles/Tileset-1.tsx"/>
+ <layer id="5" name="Tile Layer 3" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   <chunk x="-32" y="-16" width="16" height="16">
+   KLUv/WAAA40AABgAgAYEALWHUAEQYLuDuI4N
+  </chunk>
+   <chunk x="-16" y="-16" width="16" height="16">
+   KLUv/WAAA6UAADiABgAAbgJ9AwA8oMSGIOF8V44I
+  </chunk>
+   <chunk x="0" y="-16" width="16" height="16">
+   KLUv/WAAA9UAAEiABgAAcAJ9An8FAAkmsLS8h/DgnQqueeWI
+  </chunk>
+   <chunk x="16" y="-16" width="16" height="16">
+   KLUv/WAAA10AACCABgAAAQD5rxwR
+  </chunk>
+   <chunk x="32" y="-16" width="16" height="16">
+   KLUv/WAAA10AACCABgAAAQD5rxwR
+  </chunk>
+   <chunk x="-32" y="0" width="16" height="16">
+   KLUv/WAAA40AABgAgAYEALWHUAEQYLuDuI4N
+  </chunk>
+   <chunk x="-16" y="0" width="16" height="16">
+   KLUv/WAAA8UBAMB9AgAAgAZBAgAAQo5SAgAAUVCMAgAAjY4LAEOohR2pRUDF0u4yBKNTOd7qtaCEPdYWQ6jCP10R
+  </chunk>
+   <chunk x="0" y="0" width="16" height="16">
+   KLUv/WAAA8UBALiABgAAfwIAAH0CQkMCUYwCAACNjgIAAAsA9lIjhlAjj+vA7t6HYOKu4yCgrOAMAwkHh0CRfjoi
+  </chunk>
+   <chunk x="16" y="0" width="16" height="16">
+   KLUv/WAAA10AACCABgAAAQD5rxwR
+  </chunk>
+   <chunk x="32" y="0" width="16" height="16">
+   KLUv/WAAA10AACCABgAAAQD5rxwR
+  </chunk>
+   <chunk x="-32" y="16" width="16" height="16">
+   KLUv/WAAA40AABgAgAYEALWHUAEQYLuDuI4N
+  </chunk>
+   <chunk x="-16" y="16" width="16" height="16">
+   KLUv/WAAAwUBAIiABgAAUgIAAFECAACMAgAAjQQAhUAFAEnXD0Hl+XRE
+  </chunk>
+   <chunk x="0" y="16" width="16" height="16">
+   KLUv/WAAAwUBAGhRAgAAfwIAAIAGjQKOBgC9oAKHcO6OYe8Q1DCIsuWI
+  </chunk>
+   <chunk x="16" y="16" width="16" height="16">
+   KLUv/WAAA10AACCABgAAAQD5rxwR
+  </chunk>
+   <chunk x="32" y="16" width="16" height="16">
+   KLUv/WAAA10AACCABgAAAQD5rxwR
+  </chunk>
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   <chunk x="-16" y="-16" width="16" height="16">
+   KLUv/WAAAx0BAHgAKwIAACw6AgAAO7oBugEGAAcSHkAxQzgDgKSxk5QXlWMD
+  </chunk>
+   <chunk x="0" y="-16" width="16" height="16">
+   KLUv/WAAAx0BAGgALAItAgAAOzy6AboBBwARJLAVxg8hwpkdA5Ded2fjReWE
+  </chunk>
+   <chunk x="-16" y="0" width="16" height="16">
+   KLUv/WAAA10CAMg6AgAAO7oBOr0BAAC+vjsCd3gCADwCAHZ4FKAQkYwD0IKcQI4BA/UP7Go3OFU6P6ws4dpFbPPF/oqCD5tmPSmNgzkr8JNjCHyKFA==
+  </chunk>
+   <chunk x="0" y="0" width="16" height="16">
+   KLUv/WAAAy0CALg7AgAAugE8ugG/vgE7AjsCdzp2eAIAABOg8LJj0IKchW4Lw2M6eYYUeIXz4gco3jnKP8iccbhkkvqyDHg6dQP5w/4VKQ==
+  </chunk>
+   <chunk x="-16" y="16" width="16" height="16">
+   KLUv/WAAA50AACAAOwIABADBoILeECggIA2Q3BU=
+  </chunk>
+   <chunk x="0" y="16" width="16" height="16">
+   KLUv/WAAA5UAACA7AgAABAD9oILeECgoOPDqiA==
+  </chunk>
+  </data>
+ </layer>
+ <layer id="4" name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   <chunk x="-16" y="-16" width="16" height="16">
+   KLUv/WAAA80BAMAAgAaLAQAAKAKVAQAAkpYBAAA3AjcCHQIMADsCDgyEgAvvBofwwky42JWCNWx3VhhQYOchAirHBg==
+  </chunk>
+   <chunk x="0" y="-16" width="16" height="16">
+   KLUv/WAAA/UAAFAAKAKMAY0BkgGXBgCEIVBi+8FDwHAA8W5DflSODQ==
+  </chunk>
+   <chunk x="-16" y="0" width="16" height="16">
+   KLUv/WAAAzUEAKQDAAAAAP8BAAAAApUBAACS3QEAAIjeAQAAOwK6AR0CkZP1AQAA9ro7AsPF2wEAAJzcPDoCdwIA5+i6ASKg0NIUag6wghSNhgMI+RSDdTCQ5ERIgpaTwYMhfdvywRp/cMPQZ66+nT6+ISQfhfQQs+3WdZzkXYaSg55kcCgxHg56CcsuObRS
+  </chunk>
+   <chunk x="0" y="0" width="16" height="16">
+   KLUv/WAAA40EALQDkgEAAJcBAJUBAIAAAgAAAQL8AQAA9vcBAAC6k7rDAQAAxAEAAIjek9sBAACc3DcCkeXePDoC6L66574loLAaSS0HYIIjE7AekXl9OP3IxBsDJGUgfmC9AQaZj6Fl+XWwA33TZwZ0tqUGZR/QzjCpJQc3DT9kuwzek3SAqed37qziZu84AIsP0psLa38+gw0=
+  </chunk>
+   <chunk x="-16" y="16" width="16" height="16">
+   KLUv/WAAAzUBAIAAOgIAAJEBAOc7AnYCAAB3BwCFQAUAkj44kSBx0BBUa3AaOd0V
+  </chunk>
+   <chunk x="0" y="16" width="16" height="16">
+   KLUv/WAAA40BAMg3AgAAkwEAADwCAJIBnAEAAOg7AncCeAIACADyODV2GBacsMMwgKR3QGEfQhp0Ai8=
+  </chunk>
+  </data>
+ </layer>
+ <layer id="7" name="Fences" width="30" height="20">
+  <data encoding="base64" compression="zstd">
+   <chunk x="-16" y="-16" width="16" height="16">
+   KLUv/WAAA80AABgARwYHgHDtHdoZQ0ABLledA1E7WQCpXAw=
+  </chunk>
+   <chunk x="0" y="-16" width="16" height="16">
+   KLUv/WAAA8UAABgATQYHgHDtAwMWnIDrEKRB2c4WRyoXAw==
+  </chunk>
+   <chunk x="-16" y="0" width="16" height="16">
+   KLUv/WAAA2UDAEQCAGoGAAB3bAZJBgBxBgBcBlwGUgYAAFcGUldcBlwGXAZydAYAJaBAyxYOEAOTtjoaDsWBKXwMSWVknNPh/MgcRPKM1otY7A/ec11stYgMrZUsDhGWbwcLWuiABzOvx1CWBea9yHHWAtBTAw==
+  </chunk>
+   <chunk x="0" y="0" width="16" height="16">
+   KLUv/WAAA5UCAGAATQZXBgAAUklKV1cfoKBtDbACi8aKB+AyT9Jb6LVVm6b/sJKB9Q54VrllkAxnOjDhFz0+2SE6+H51+7fE4eT5kpS50tLB78NkqXCKri0a2gI=
+  </chunk>
+  </data>
+ </layer>
+ <layer id="6" name="Trees" width="30" height="20" locked="1">
+  <data encoding="base64" compression="zstd"/>
+ </layer>
+</map>
