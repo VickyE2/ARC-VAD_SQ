@@ -1,8 +1,6 @@
 package com.arcvad.schoolquest.player;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Player {
@@ -17,10 +15,12 @@ public class Player {
     private String shoe;
     private String topCloth;
     private String bottomCloth;
+    private String skinColor;
 
     // Default values
     public Player() {
         this.name = "Player";
+        this.skinColor = "dark_brown";
         this.eyeLashStyle = "style_1";  // Default eyelash style
         this.eyeLashColor = "black";     // Default eyelash color
         this.hairStyle = "style_1";      // Default hairstyle
@@ -40,7 +40,10 @@ public class Player {
     public void setEyeLashStyle(String eyeLashStyle) { this.eyeLashStyle = eyeLashStyle; }
 
     public String getEyeLashColor() { return eyeLashColor; }
-    public void setEyeLashColor(String eyeLashColor) { this.eyeLashColor = eyeLashColor; }
+    public void setEyeLashColor(String skinColor) { this.skinColor = skinColor; }
+
+    public String getSkinColor() { return eyeLashColor; }
+    public void setSkinColor(String skinColor) { this.skinColor = skinColor; }
 
     public String getHairStyle() { return hairStyle; }
     public void setHairStyle(String hairStyle) { this.hairStyle = hairStyle; }
@@ -90,6 +93,7 @@ public class Player {
         playerData.put("topCloth", topCloth);
         playerData.put("bottomCloth", bottomCloth);
         playerData.put("shoe", shoe);
+        playerData.put("skinColor", skinColor);
 
         accessories.forEach((key, value) -> playerData.put("accessory_" + key, value));
 
@@ -107,6 +111,7 @@ public class Player {
         player.setTopCloth(playerData.getOrDefault("topCloth", "c_def_1"));
         player.setBottomCloth(playerData.getOrDefault("bottomCloth", "t_def_1"));
         player.setShoe(playerData.getOrDefault("shoe", "s_def_1"));
+        player.setSkinColor(playerData.getOrDefault("skinColor", "dark_brown"));
 
         // Initialize accessories from the map
         Map<String, String> accessories = new HashMap<>();

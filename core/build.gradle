@@ -12,8 +12,17 @@ dependencies {
   api "com.kotcrab.vis:vis-ui:$visUiVersion"
   api "games.rednblack.miniaudio:miniaudio:$miniaudioVersion"
   api "space.earlygrey:shapedrawer:$shapeDrawerVersion"
+  implementation "com.github.MrStahlfelge.gdx-websockets:core:$wsVersion"
+  implementation 'org.spongepowered:configurate-jackson:4.1.2'
+  implementation 'com.google.code.gson:gson:2.10.1'
+  implementation 'com.google.auto.value:auto-value-annotations:1.9'
+  annotationProcessor 'com.google.auto.value:auto-value:1.9'
 
-  if(enableGraalNative == 'true') {
+  implementation 'com.google.jsinterop:jsinterop-annotations:2.0.2'
+  implementation "com.github.tommyettinger:jdkgdxds_interop:1.6.5.0"
+  api 'com.github.tommyettinger:jdkgdxds:1.6.5'
+
+  if (enableGraalNative == 'true') {
     implementation "io.github.berstanio:gdx-svmhelper-annotations:$graalHelperVersion"
   }
 }

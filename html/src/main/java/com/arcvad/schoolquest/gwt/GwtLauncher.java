@@ -4,6 +4,7 @@ import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
 import com.arcvad.schoolquest.ARCCore;
+import com.github.czyzby.websocket.GwtWebSockets;
 
 /** Launches the GWT application. */
 public class GwtLauncher extends GwtApplication {
@@ -19,8 +20,10 @@ public class GwtLauncher extends GwtApplication {
             //return new GwtApplicationConfiguration(640, 480);
         }
 
-        @Override
-        public ApplicationListener createApplicationListener () {
-            return new ARCCore();
-        }
+    @Override
+    public ApplicationListener createApplicationListener() {
+        // Initiating web sockets module - safe to call before creating application listener:
+        GwtWebSockets.initiate();
+        return new ARCCore();
+    }
 }

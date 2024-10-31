@@ -45,8 +45,20 @@ dependencies {
   implementation "com.kotcrab.vis:vis-ui:$visUiVersion:sources"
   implementation "space.earlygrey:shapedrawer:$shapeDrawerVersion:sources"
   implementation project(':core')
-  implementation("com.badlogicgames.gdx:gdx-box2d-gwt:$gdxVersion:sources") {exclude group: "com.google.gwt", module: "gwt-user"}
+  implementation "com.github.MrStahlfelge.gdx-websockets:core:$wsVersion:sources"
+  implementation "com.github.MrStahlfelge.gdx-websockets:html:$wsVersion"
+  implementation "com.github.MrStahlfelge.gdx-websockets:html:$wsVersion:sources"
+  implementation 'org.spongepowered:configurate-jackson:4.1.2'
+  implementation 'com.google.code.gson:gson:2.10.1'
+  implementation 'com.google.auto.value:auto-value-annotations:1.9'
+  implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 
+  annotationProcessor 'com.google.auto.value:auto-value:1.9'
+
+  implementation 'com.google.jsinterop:jsinterop-annotations:2.0.2'
+  implementation "com.github.tommyettinger:funderby:0.1.2:sources"
+  implementation "com.github.tommyettinger:digital:0.5.2:sources"
+  implementation "com.github.tommyettinger:jdkgdxds:1.6.5:sources"
 }
 
 import org.akhikhl.gretty.AppBeforeIntegrationTestTask

@@ -45,6 +45,19 @@
 -keep public class com.badlogic.gdx.graphics.g2d.BitmapFont { *; }
 # You will probably need this line in most cases:
 -keep public class com.badlogic.gdx.graphics.Color { *; }
+-keep class com.google.auto.value.AutoValue { *; }
+
+-dontwarn java.lang.reflect.AnnotatedArrayType
+-dontwarn java.lang.reflect.AnnotatedType
+-dontwarn java.lang.reflect.AnnotatedParameterizedType
+-dontwarn java.lang.reflect.Type
+-dontwarn java.lang.reflect.AnnotatedTypeVariable
+-dontwarn java.lang.reflect.AnnotatedWildcardType
+-dontwarn com.google.gwt.core.shared.GWTBridge
+-dontwarn javaemul.internal.annotations.DoNotAutobox
+-dontwarn javaemul.internal.annotations.UncheckedCast
+
+
 
 # These two lines are used with mapping files; see https://developer.android.com/build/shrink-code#retracing
 -keepattributes LineNumberTable,SourceFile
