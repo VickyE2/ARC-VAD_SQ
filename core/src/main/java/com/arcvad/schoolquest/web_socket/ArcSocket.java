@@ -13,9 +13,9 @@ public class ArcSocket implements WebSocket {
     private WebSocketState currentState = WebSocketState.CLOSED;
     private WebSocket socket;
     private String url;
-    public ArcSocket(String url) {
+    public ArcSocket(String url, int port) {
         this.url = url;
-        socket = WebSockets.newSocket((WebSockets.toWebSocketUrl(url, 677)));
+        socket = WebSockets.newSocket((WebSockets.toWebSocketUrl(url, port)));
     }
 
     @Override
@@ -26,7 +26,7 @@ public class ArcSocket implements WebSocket {
             try {
                 socket.connect();
             }catch (WebSocketException e) {
-                Gdx.app.error("ARC-SOCKET", "Unable to connect to host");
+                Gdx.app.error("ARC-SOCKET", "Unable to connect to host: " + e.getCause());
             }
 
             currentState = WebSocketState.OPEN;

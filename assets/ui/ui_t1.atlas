@@ -1,0 +1,224 @@
+
+ui_t1.png
+size: 256, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+button
+  rotate: false
+  xy: 57, 207
+  size: 28, 24
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+button_disabled
+  rotate: false
+  xy: 1, 111
+  size: 28, 24
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+button_focused
+  rotate: false
+  xy: 57, 181
+  size: 28, 24
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+button_pressed
+  rotate: false
+  xy: 87, 207
+  size: 28, 24
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+checkbox
+  rotate: false
+  xy: 1, 65
+  size: 23, 23
+  split: 6, 6, 6, 6
+  pad: 0, 0, 0, 0
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+checkbox_disabled
+  rotate: false
+  xy: 1, 40
+  size: 23, 23
+  split: 6, 6, 6, 6
+  pad: 0, 0, 0, 0
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+checkbox_hover
+  rotate: false
+  xy: 1, 15
+  size: 23, 23
+  split: 6, 6, 6, 6
+  pad: 0, 0, 0, 0
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+checkbox_unselected
+  rotate: false
+  xy: 35, 146
+  size: 23, 23
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+checkbox_unselected_disabled
+  rotate: false
+  xy: 165, 230
+  size: 23, 23
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+checkbox_unselected_hover
+  rotate: false
+  xy: 190, 230
+  size: 23, 23
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+divider
+  rotate: false
+  xy: 242, 1
+  size: 7, 252
+  split: 0, 0, 0, 0
+  orig: 7, 252
+  offset: 0, 0
+  index: -1
+h_scroller
+  rotate: false
+  xy: 1, 3
+  size: 15, 10
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+list_holder
+  rotate: false
+  xy: 1, 137
+  size: 32, 32
+  split: 3, 3, 0, 3
+  pad: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+listholder
+  rotate: false
+  xy: 131, 240
+  size: 32, 13
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 32, 13
+  offset: 0, 0
+  index: -1
+loading bar
+  rotate: false
+  xy: 1, 247
+  size: 128, 6
+  split: 2, 2, 2, 2
+  pad: 0, 0, 0, 0
+  orig: 128, 6
+  offset: 0, 0
+  index: -1
+loading knob
+  rotate: false
+  xy: 232, 245
+  size: 8, 8
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+loading_bar_inner
+  rotate: false
+  xy: 1, 233
+  size: 126, 4
+  split: 1, 1, 1, 1
+  pad: 0, 0, 0, 0
+  orig: 126, 4
+  offset: 0, 0
+  index: -1
+selectbox
+  rotate: false
+  xy: 1, 90
+  size: 25, 19
+  split: 3, 6, 3, 5
+  pad: 0, 0, 0, 0
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+slider_background
+  rotate: false
+  xy: 1, 239
+  size: 128, 6
+  split: 2, 2, 2, 2
+  pad: 0, 0, 0, 0
+  orig: 128, 6
+  offset: 0, 0
+  index: -1
+text_holder
+  rotate: false
+  xy: 215, 243
+  size: 15, 10
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+v_scroller
+  rotate: false
+  xy: 117, 216
+  size: 10, 15
+  split: 3, 3, 3, 3
+  pad: 0, 0, 0, 0
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 1, 171
+  size: 54, 60
+  split: 5, 5, 33, 4
+  pad: 2, 2, 33, 4
+  orig: 54, 60
+  offset: 0, 0
+  index: -1
+checkbox_hover
+  rotate: false
+  xy: 87, 182
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+tree_minus
+  rotate: false
+  xy: 57, 171
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+tree_plus
+  rotate: false
+  xy: 215, 233
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1

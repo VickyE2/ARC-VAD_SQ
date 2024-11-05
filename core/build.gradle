@@ -21,6 +21,8 @@ dependencies {
   implementation 'com.google.jsinterop:jsinterop-annotations:2.0.2'
   implementation "com.github.tommyettinger:jdkgdxds_interop:1.6.5.0"
   api 'com.github.tommyettinger:jdkgdxds:1.6.5'
+  implementation 'com.github.raeleus.stripe:stripe:2.0.0'
+  implementation 'com.github.raeleus.stripe:freetype:2.0.0'
 
   if (enableGraalNative == 'true') {
     implementation "io.github.berstanio:gdx-svmhelper-annotations:$graalHelperVersion"

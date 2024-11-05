@@ -59,6 +59,8 @@ dependencies {
   implementation "com.github.tommyettinger:funderby:0.1.2:sources"
   implementation "com.github.tommyettinger:digital:0.5.2:sources"
   implementation "com.github.tommyettinger:jdkgdxds:1.6.5:sources"
+  implementation 'com.github.raeleus.stripe:stripe:2.0.0:sources'
+  implementation 'com.github.raeleus.stripe:freetype:2.0.0:sources'
 }
 
 import org.akhikhl.gretty.AppBeforeIntegrationTestTask

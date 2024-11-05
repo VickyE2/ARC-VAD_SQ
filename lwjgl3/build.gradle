@@ -47,6 +47,7 @@ dependencies {
   if (enableGraalNative == 'true') {
     implementation "io.github.berstanio:gdx-svmhelper-backend-lwjgl3:$graalHelperVersion"
     implementation "io.github.berstanio:gdx-svmhelper-extension-box2d:$graalHelperVersion"
+    implementation 'com.github.raeleus.stripe:stripe:2.0.0'
   }
 
 }

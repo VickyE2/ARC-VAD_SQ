@@ -29,7 +29,38 @@ public class JsonConfigManager {
 
             if (root != null) {
                 for (JsonValue child : root) {
-                    configData.put(child.name, child.asString());
+                    // Check for cycles or deep structures
+                    if (child.isString()) {
+                        configData.put(child.name, child.asString());
+                    } else if (child.isArray()) {
+                        if (child.isArray()) {
+                            // Handle arrays with a different approach to prevent recursion
+                            StringBuilder arrayString = new StringBuilder("[");
+                            for (JsonValue item : child) {
+                                // Serialize each item to a string, ensuring no recursion happens
+                                if (item.isObject() || item.isArray()) {
+                                    // If it's an object or array, serialize it instead of calling asString()
+                                    arrayString.append(json.toJson(item)).append(",");
+                                } else {
+                                    // Otherwise, just append the string representation of the value
+                                    arrayString.append(item.asString()).append(",");
+                                }
+                            }
+
+                            // Remove the trailing comma and close the array
+                            if (arrayString.length() > 1) {
+                                arrayString.setLength(arrayString.length() - 1);
+                            }
+                            arrayString.append("]");
+                            configData.put(child.name, arrayString.toString());
+                        }
+                    } else if (child.isObject()) {
+                        // Handle object differently to avoid cycles
+                        String objectString = json.toJson(child); // Ensure child is not self-referential
+                        configData.put(child.name, objectString);
+                    } else {
+                        Gdx.app.log("ARC-JSON", "Unhandled value type for key: " + child.name);
+                    }
                 }
             }
             Gdx.app.debug("ARC-JSON", "Config file loaded");
@@ -38,6 +69,8 @@ public class JsonConfigManager {
         }
     }
 
+
+
     public void setConfigValue(String key, String value) {
         configData.put(key, value);
         saveConfig();
@@ -45,6 +78,14 @@ public class JsonConfigManager {
 
     public String getConfigValue(String key) {
         return configData.get(key);
+    }
+
+    public Boolean getBooleanValue(String key) {
+        return Boolean.getBoolean(configData.get(key));
+    }
+
+    public Boolean exists(String key) {
+        return configData.containsKey(key);
     }
 
     public synchronized void saveConfig() {
